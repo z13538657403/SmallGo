@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zhangtao/Documents/androiddeveloper/AppBasicWidget/FragmentTabHostTest18/lib/bdwallet_pay_sdk/build/intermediates/res/merged/androidTest/debug/color/wallet_base_click_text_color.xml",
+        "source": "/Users/zhangtao/Documents/androiddeveloper/AppBasicWidget/FragmentTabHostTest18/lib/bdwallet_pay_sdk/build/intermediates/bundles/debug/res/color/wallet_base_click_text_color.xml"
+    },
+    {
+        "merged": "/Users/zhangtao/Documents/androiddeveloper/AppBasicWidget/FragmentTabHostTest18/lib/bdwallet_pay_sdk/build/intermediates/res/merged/androidTest/debug/color/wallet_base_dialog_btntext_color_selector.xml",
+        "source": "/Users/zhangtao/Documents/androiddeveloper/AppBasicWidget/FragmentTabHostTest18/lib/bdwallet_pay_sdk/build/intermediates/bundles/debug/res/color/wallet_base_dialog_btntext_color_selector.xml"
+    }
+]

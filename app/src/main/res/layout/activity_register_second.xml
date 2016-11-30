@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color">
+
+    <com.test.zhangtao.activitytest.widget.CnToolBar
+        android:id="@+id/register_second_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/icon_back_32px"
+        app:title="用户注册(2/2)"
+        app:rightButtonText="完 成"/>
+
+    <TextView
+        android:id="@+id/txtTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/border_color"
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"
+        android:padding="@dimen/largePadding"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="@dimen/largePadding"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <com.test.zhangtao.activitytest.widget.ClearEditText
+            android:id="@+id/editTxt_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/editText_base"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:maxLength="4"/>
+
+        <Button
+            android:id="@+id/btn_reSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="重新获取验证码"
+            style="@style/smallGreenButton"
+            android:enabled="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

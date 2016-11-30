@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmallGo</string>
+    <string name="tab01">首页</string>
+    <string name="tab02">热卖</string>
+    <string name="tab03">分类</string>
+    <string name="tab04">购物车</string>
+    <string name="tab05">我的</string>
+    <string name="to_login">点击登陆</string>
+    <string name="smssdk_resend_identify_code">重新获取验证码</string>
+    <string name="new_address">新建收货地址</string>
+    <string name="update_address">修改收货地址</string>
+</resources>

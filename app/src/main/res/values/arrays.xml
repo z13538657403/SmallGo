@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="material_colors">
+        <item>@color/app_green</item>
+        <item>@color/red</item>
+    </array>
+</resources>
